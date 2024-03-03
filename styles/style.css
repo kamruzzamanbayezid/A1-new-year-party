@@ -16,6 +16,14 @@ main {
       margin: 0 auto;
 }
 
+/* shared styles */
+.new-year-description {
+      color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+}
+
 /* Banner related styles */
 .banner-container {
       max-width: 1320px;
@@ -170,4 +178,24 @@ main {
       border: none;
       margin-top: 30px;
       cursor: pointer;
+}
+
+/* coming soon related styles */
+.coming-soon-container {
+      margin-bottom: 70px;
+      display: flex;
+      gap: 50px;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.coming-soon-image {
+      border-radius: 463px;
+      border: 15px solid #F00;
+}
+
+.coming-soon-image img {
+      margin: 30px;
+      width: 350px;
+      height: 350px;
 }
