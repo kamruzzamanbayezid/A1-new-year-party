@@ -201,7 +201,7 @@ main {
 }
 
 /* holyday sale related styles */
-.holiday-sale-container{ 
+.holiday-sale-container {
       margin-bottom: 70px;
 }
 
@@ -222,4 +222,20 @@ main {
       margin-bottom: 20px;
       text-align: center;
 
+}
+
+/* portfolio related styles */
+.portfolio-container {
+      margin-bottom: 70px;
+}
+
+.portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+}
+
+.portfolio-gallery img {
+      width: 100%;
 }
