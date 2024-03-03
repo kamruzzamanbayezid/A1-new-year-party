@@ -199,3 +199,27 @@ main {
       width: 350px;
       height: 350px;
 }
+
+/* holyday sale related styles */
+.holiday-sale-container{ 
+      margin-bottom: 70px;
+}
+
+.holiday-function {
+      color: #070211;
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      text-align: center;
+}
+
+.holiday-sale-title {
+      color: #070211;
+      font-family: Merriweather;
+      font-size: 72px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      text-align: center;
+
+}
